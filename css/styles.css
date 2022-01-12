@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: aqua;
+}
+
+header {
+    width: 1024px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    background-color: blueviolet;
+}
+
+nav {
+    height: 40px;
+    padding: 10px 0 0 0;
+    background-color: hotpink;
+}
+
+article {
+    width: 340px;
+    padding: 5px;
+    margin: 0 10px 0 0;
+    display: inline-block;
+    vertical-align: text-top;
+    background-color: sienna;
+}
+
+aside {
+    width: 285px;
+    padding: 20px;
+    display: inline-block;
+    background-color: lightblue;
+}
+
+footer {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    background-color: silver;
+}
+
+h1 {
+    width: 150px;
+    height: 40px;
+    float: left;
+    background-color: gold;
+}
+
+main {
+    width: 1024px;
+    height: 350px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: lightpink;
+}
+
+form {
+    width: 600px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 90px 0 0 0;
+    margin: 0 0 0 212px;
+    background-color: mediumslateblue;
+}
+
+.green {
+ color: green;
+}
+
+.red {
+    color: red;
+   }
+
+#main-index {
+    padding: 20px;
+    width: 735px;
+    height: 460px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+#h2-main-index {
+    width: 150px;
+    height: 40px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    padding: 8px 0 0 0;
+    background-color: lightseagreen;
+}
+
+#h2-login {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px 0 0 0;
+    margin: 0 0 20px 212px;
+    background-color: lightseagreen;
+}
+
+#p-main-index {
+    width: 500px;
+    height: 100px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    padding: 40px 0 0 0;
+    background-color: mediumslateblue;
+}
+
+#p2-article1 {
+    font-weight: bold;
+    color: blue;
+}
+
+#nav-ul {
+    float: left;
+}
+
+.nav-li {
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+}
+
+#nav-a {
+    width: 150px;
+    float: right;
+    text-align: center;
+    background-color: ivory;
+}
+
+#article-2 {
+    margin: 0;
+}
+
+input[type=text], input[type=password] {
+    border-radius: 5px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: lightgray;
+    border: 2px solid #fff;
+}
+
+input[type=reset] {
+    background-color: lightblue;
+    padding: 0 2px 0 2px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+input[type=reset]:hover {
+    opacity: 0.8;
+}
+
+input[type=submit] {
+    background-color: lightgreen;
+    padding: 0 2px 0 2px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
